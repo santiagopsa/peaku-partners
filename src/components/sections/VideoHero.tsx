@@ -83,18 +83,18 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
             </div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm text-firo-muted border border-firo-line">
               <span className="h-2 w-2 rounded-full bg-firo-blue" />
-              {isEs ? "Partnership PeakU para coworkings" : "PeakU for recruiters"}
+              {isEs ? "Partnership de PeakU para coworkings" : "PeakU for recruiters"}
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
               {isEs
-                ? "Activa el partnership con PeakU y entrégale a tu comunidad un beneficio de alto valor."
+                ? "Activa PeakU en tu coworking y compártelo con tu comunidad."
                 : "The problem is not finding strong candidates, it is getting support for your judgment."}
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-firo-muted md:text-lg">
               {isEs
-                ? "Tu coworking habilita sin costo el acceso a publicar una vacante con servicio premium en PeakU. Nosotros les enviamos un kit y una landing del partnership para compartirlo fácilmente con su comunidad."
+                ? "Tu coworking habilita, sin costo, el acceso para que tu comunidad publique una vacante premium en PeakU. Nosotros te enviamos un kit de comunicación y una landing lista para compartir."
                 : "If your recruiting work gets dismissed when a hiring leader rejects candidates without context, this page is for you."}
             </p>
 
@@ -109,7 +109,7 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
 
             <p className="mt-3 text-xs text-firo-muted">
               {isEs
-                ? "Sin costo para el coworking. Alto valor para su comunidad."
+                ? "Sin costo para el coworking. Un beneficio real para tu comunidad."
                 : "A practical tool to support your hiring decisions."}
             </p>
           </div>

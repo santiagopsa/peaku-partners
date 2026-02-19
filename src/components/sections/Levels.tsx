@@ -40,7 +40,7 @@ const levelsEs = [
   {
     level: "Paso 2",
     title: "Difusión",
-    earns: "Recibes un kit físico para comunicar el beneficio",
+    earns: "Recibes un kit de comunicación para difundir el beneficio",
     does: "Piezas listas para compartir con tu comunidad",
   },
   {
@@ -53,7 +53,7 @@ const levelsEs = [
     level: "Paso 4",
     title: "Valor compartido",
     earns: "Tu comunidad publica vacantes premium en PeakU",
-    does: "Tu coworking tambien puede usar PeakU para encontrar talento",
+    does: "Tu coworking también puede usar PeakU para encontrar talento",
   },
 ];
 
@@ -95,11 +95,11 @@ export default function Levels({ locale = "en" }: LevelsProps) {
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
           <div className="md:sticky md:top-28">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Una activación liviana que crea valor para todos" : "This is not a talent problem. It is a trust problem."}
+              {isEs ? "Una activación simple que genera valor para todos" : "This is not a talent problem. It is a trust problem."}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "El coworking ofrece un beneficio de alto impacto para su comunidad sin asumir costos. PeakU gana visibilidad y, cuando el partnership funciona bien, se abre la puerta a nuevos clientes."
+                ? "Tu coworking ofrece un beneficio de alto impacto para su comunidad sin asumir costos. PeakU gana visibilidad y, cuando el partnership funciona bien, se abre la puerta a nuevas oportunidades."
                 : "Teams rarely question the process itself. They question the recruiter’s judgment. PeakU adds structured evidence to make hiring decisions defensible."}
             </p>
           </div>

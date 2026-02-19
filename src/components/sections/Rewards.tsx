@@ -13,17 +13,17 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "PeakU se encarga de que la activacion sea facil para ti" : "This is exactly why we built PeakU"}
+              {isEs ? "PeakU se encarga de que la activación sea fácil para tu equipo" : "This is exactly why we built PeakU"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "Te enviamos una caja con diferentes elementos para comunicar el beneficio dentro del coworking y creamos una landing del partnership para que tu comunidad acceda directo. Tu equipo solo activa y nosotros acompanamos el resto."
+                ? "Te enviamos un kit de comunicación con piezas para compartir el beneficio dentro del coworking y creamos una landing del partnership para que tu comunidad acceda directo. Tu equipo activa y nosotros acompañamos el resto."
                 : "We kept seeing recruiters with solid judgment lose internal support. PeakU helps structure evaluations, build hiring reports, and present candidates in a format teams trust."}
             </p>
 
             <div className="mt-8 grid gap-3 md:grid-cols-3">
-              <Loot value={isEs ? "Activacion sin costo" : "Visible criteria"} />
-              <Loot value={isEs ? "Kit fisico para difusion" : "Organized evidence"} />
+              <Loot value={isEs ? "Activación sin costo" : "Visible criteria"} />
+              <Loot value={isEs ? "Kit de comunicación para difusión" : "Organized evidence"} />
               <Loot value={isEs ? "Landing exclusiva del partnership" : "Less friction"} />
             </div>
           </div>

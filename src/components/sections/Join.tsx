@@ -19,7 +19,7 @@ export default function Join({ locale = "en" }: JoinProps) {
               </h2>
               <p className="mt-3 text-firo-muted">
                 {isEs
-                  ? "Te contactamos por WhatsApp para activar la alianza sin costo, coordinar el envio del kit y publicar la landing de partnership para tu comunidad."
+                  ? "Te contactamos por WhatsApp para activar la alianza sin costo, coordinar el envío del kit de comunicación y publicar la landing del partnership para tu comunidad."
                   : "A practical framework recruiters use to present candidates with clarity, evidence, and arguments leaders can understand. We will send the guide directly to your WhatsApp."}
               </p>
             </div>
@@ -37,7 +37,7 @@ export default function Join({ locale = "en" }: JoinProps) {
 
                 <div>
                   <label className="mb-1 block text-sm font-medium text-firo-text" htmlFor="name">
-                    {isEs ? "Nombre del lider o dueno" : "Name"}
+                    {isEs ? "Nombre del líder o dueño" : "Name"}
                   </label>
                   <input
                     id="name"
@@ -73,7 +73,7 @@ export default function Join({ locale = "en" }: JoinProps) {
 
           <div className="mt-6 text-xs text-firo-muted">
             {isEs
-              ? "Sin spam. Solo usamos tu WhatsApp para coordinar la activacion del partnership."
+              ? "Sin spam. Solo usamos tu WhatsApp para coordinar la activación del partnership."
               : "No spam. We only use your WhatsApp to send the guide."}
           </div>
         </div>

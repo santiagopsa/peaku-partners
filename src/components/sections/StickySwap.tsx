@@ -11,10 +11,10 @@ const cards = [
   { title: "Your work becomes visible", desc: "The depth of your recruiting process is no longer hidden behind opinions." },
 ];
 const cardsEs = [
-  { title: "Beneficio premium para tu comunidad", desc: "Las personas y empresas de tu coworking acceden a publicar una vacante premium con PeakU." },
+  { title: "Beneficio premium para tu comunidad", desc: "Las personas y empresas de tu coworking acceden a publicar una vacante premium sin costo en PeakU." },
   { title: "Activación sin costo", desc: "Tu coworking no paga por participar: solo activas el partnership y empezamos juntos." },
   { title: "Visibilidad y crecimiento para ambos", desc: "PeakU se da a conocer en nuevas comunidades y tu coworking suma una propuesta diferencial." },
-  { title: "Tambien para contratar talento", desc: "El mismo coworking puede usar la herramienta para encontrar talento cuando lo necesite." },
+  { title: "También para contratar talento", desc: "Tu coworking también puede usar la plataforma para encontrar talento cuando lo necesite." },
 ];
 
 type StickySwapProps = {
@@ -63,7 +63,7 @@ export default function StickySwap({ locale = "en" }: StickySwapProps) {
             </h2>
             <p className="mt-4 max-w-lg text-firo-muted">
               {isEs
-                ? "Convertimos una activacion simple en un beneficio concreto para tu comunidad y en una oportunidad de crecimiento para ambas partes."
+                ? "Convertimos una activación simple en un beneficio concreto para tu comunidad y en una oportunidad de crecimiento para ambas partes."
                 : "It is not about arguing harder. It is about making your process visible and credible."}
             </p>
           </div>

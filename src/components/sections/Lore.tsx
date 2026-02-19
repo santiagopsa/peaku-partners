@@ -41,29 +41,29 @@ export default function Lore({ locale = "en" }: LoreProps) {
         <div className="max-w-3xl">
           <h2 data-reveal className="text-3xl font-semibold tracking-tight md:text-4xl">
             {isEs
-              ? "Una alianza simple con beneficios reales"
+              ? "Una alianza simple, con valor real para tu comunidad"
               : "The recruiter’s invisible work"}
           </h2>
           <p data-reveal className="mt-4 text-firo-muted">
             {isEs
-              ? "Cuando activas el partnership con PeakU, tu comunidad accede directamente a publicar una vacante con servicio premium y tu coworking fortalece su propuesta de valor."
+              ? "Cuando activas el partnership con PeakU, tu comunidad accede a publicar una vacante premium sin costo y tu coworking fortalece su propuesta de valor."
               : "You review hundreds of profiles, run structured interviews, and build strong recommendations."}
           </p>
           <p data-reveal className="mt-3 text-firo-muted">
             {isEs
-              ? "Es una relación gana-gana: tu comunidad recibe un beneficio útil, PeakU se da a conocer, y si hay buen fit, puede nacer un nuevo cliente."
+              ? "Es una relación gana-gana: tu comunidad recibe un beneficio útil, tu coworking se diferencia y PeakU llega a nuevas comunidades."
               : "And too often everything ends with one sentence: \"I am not convinced.\""}
           </p>
 
           <div className="mt-10 grid gap-4 md:grid-cols-3">
             <Card
-              desc={isEs ? "No pagas por activar: solo nos dices que sí y nosotros ponemos en marcha el partnership." : "You filter hundreds of profiles to separate signal from noise."}
+              desc={isEs ? "No pagas por activar. Tu equipo nos dice que sí y nosotros ponemos en marcha el partnership." : "You filter hundreds of profiles to separate signal from noise."}
             />
             <Card
-              desc={isEs ? "Recibes una caja con piezas de comunicación para compartir el beneficio con tu comunidad." : "You structure interviews, evaluate skills, and compare evidence."}
+              desc={isEs ? "Recibes un kit de comunicación con piezas listas para contar el beneficio dentro de tu comunidad." : "You structure interviews, evaluate skills, and compare evidence."}
             />
             <Card
-              desc={isEs ? "También creamos una landing del partnership para que tu comunidad acceda de forma directa." : "Without shared context, your recommendations are exposed to subjective calls."}
+              desc={isEs ? "También creamos una landing de tu partnership para que tu comunidad acceda y active el beneficio fácilmente." : "Without shared context, your recommendations are exposed to subjective calls."}
             />
           </div>
         </div>
