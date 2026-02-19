@@ -9,16 +9,16 @@ import Join from "@/components/sections/Join";
 import { DEFAULT_OG_IMAGE, SITE_URL } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "PeakU | Recruiter guide to defend candidates with evidence",
+  title: "PeakU | Partnership for coworkings and their community",
   description:
-    "PeakU helps recruiters present candidates with structured evidence and shared criteria. Get the guide via WhatsApp and reduce hiring rework.",
+    "Activate the PeakU partnership in your coworking and offer your community access to publish one premium job opening at no cost.",
   keywords: [
-    "recruiter guide",
-    "recruiter tools",
-    "hiring evidence framework",
-    "candidate recommendation support",
-    "reduce hiring rework",
-    "hiring manager alignment",
+    "coworking partnership",
+    "benefits for coworking community",
+    "PeakU premium job opening",
+    "talent for coworking",
+    "partnerships for coworkings",
+    "PeakU coworkings",
   ],
   alternates: {
     canonical: `${SITE_URL}/`,
@@ -30,24 +30,24 @@ export const metadata: Metadata = {
   },
   openGraph: {
     locale: "en_US",
-    title: "PeakU | Recruiter guide to defend candidates with evidence",
+    title: "PeakU | Activate partnership in your coworking",
     description:
-      "Practical guide for recruiters to present candidates with clarity, evidence, and shared criteria.",
+      "Give your community direct access to publish one premium job opening on PeakU and get a communication kit to share the benefit.",
     url: `${SITE_URL}/`,
     images: [
       {
         url: DEFAULT_OG_IMAGE,
         width: 1200,
         height: 800,
-        alt: "PeakU dashboard for recruiter decision support",
+        alt: "PeakU partnership for coworking communities",
       },
     ],
   },
   twitter: {
     card: "summary_large_image",
-    title: "PeakU | Recruiter guide to defend candidates with evidence",
+    title: "PeakU | Partnership for coworkings",
     description:
-      "Get the practical recruiter guide and receive it via WhatsApp.",
+      "Activate the partnership at no cost and share premium job opening access with your community.",
     images: [DEFAULT_OG_IMAGE],
   },
 };

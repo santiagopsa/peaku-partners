@@ -83,19 +83,19 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
             </div>
             <div className="inline-flex items-center gap-2 rounded-full bg-white/80 px-4 py-2 text-sm text-firo-muted border border-firo-line">
               <span className="h-2 w-2 rounded-full bg-firo-blue" />
-              {isEs ? "Partnership de PeakU para coworkings" : "PeakU for recruiters"}
+              {isEs ? "Partnership de PeakU para coworkings" : "PeakU partnership for coworkings"}
             </div>
 
             <h1 className="mt-6 text-4xl font-semibold tracking-tight md:text-6xl">
               {isEs
-                ? "Activa PeakU en tu coworking y compártelo con tu comunidad."
-                : "The problem is not finding strong candidates, it is getting support for your judgment."}
+                ? "Activa este beneficio con PeakU y compártelo con tu comunidad."
+                : "Activate this PeakU benefit and share it with your community."}
             </h1>
 
             <p className="mt-5 max-w-xl text-base leading-relaxed text-firo-muted md:text-lg">
               {isEs
-                ? "Tu coworking habilita, sin costo, el acceso para que tu comunidad publique una vacante premium en PeakU. Nosotros te enviamos un kit de comunicación y una landing lista para compartir."
-                : "If your recruiting work gets dismissed when a hiring leader rejects candidates without context, this page is for you."}
+                ? "Desde tu coworking puedes abrir, sin costo, el acceso para que tu comunidad publique una vacante premium en PeakU. Nosotros te enviamos un kit de comunicación y una landing lista para que lo compartas fácilmente."
+                : "From your coworking, you can unlock access at no cost so your community can post a premium job opening on PeakU. We send you a communication kit and a ready-to-share landing page."}
             </p>
 
             <div className="mt-8 flex flex-wrap gap-3">
@@ -103,14 +103,14 @@ export default function VideoHero({ locale = "en" }: VideoHeroProps) {
                 href="#join"
                 className="rounded-xl bg-firo-blue px-5 py-3 text-sm font-semibold shadow-soft hover:opacity-95"
               >
-                {isEs ? "Activar partnership" : "Download free guide"}
+                {isEs ? "Activar partnership" : "Activate partnership"}
               </a>
             </div>
 
             <p className="mt-3 text-xs text-firo-muted">
               {isEs
-                ? "Sin costo para el coworking. Un beneficio real para tu comunidad."
-                : "A practical tool to support your hiring decisions."}
+                ? "Sin costo para tu coworking, con valor real para tu comunidad."
+                : "No cost for your coworking, with real value for your community."}
             </p>
           </div>
         </div>

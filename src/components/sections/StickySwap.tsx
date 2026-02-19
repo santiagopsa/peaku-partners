@@ -5,16 +5,16 @@ import Container from "../ui/Container";
 import { ensureGsap } from "@/lib/gsap";
 
 const cards = [
-  { title: "Evidence-backed decisions", desc: "Each recommendation is presented with clear criteria and objective signals." },
-  { title: "Fewer repeated hiring processes", desc: "Shared structure reduces resets, delays, and unnecessary back-and-forth." },
-  { title: "Higher hiring leader trust", desc: "Leaders understand why a candidate fits, before relying on gut feeling." },
-  { title: "Your work becomes visible", desc: "The depth of your recruiting process is no longer hidden behind opinions." },
+  { title: "Premium benefit for your community", desc: "People and companies in your coworking can post a premium job opening at no cost on PeakU." },
+  { title: "No-cost activation", desc: "Your coworking does not pay to participate: you activate the partnership, and we support you through the process." },
+  { title: "More value for your community", desc: "You share a practical, high-impact opportunity with the people and teams in your coworking." },
+  { title: "Also useful to hire talent", desc: "Your coworking can also use the platform to find talent when needed." },
 ];
 const cardsEs = [
   { title: "Beneficio premium para tu comunidad", desc: "Las personas y empresas de tu coworking acceden a publicar una vacante premium sin costo en PeakU." },
-  { title: "Activación sin costo", desc: "Tu coworking no paga por participar: solo activas el partnership y empezamos juntos." },
-  { title: "Visibilidad y crecimiento para ambos", desc: "PeakU se da a conocer en nuevas comunidades y tu coworking suma una propuesta diferencial." },
-  { title: "También para contratar talento", desc: "Tu coworking también puede usar la plataforma para encontrar talento cuando lo necesite." },
+  { title: "Activación sin costo", desc: "Tu coworking no paga por participar: tú activas el partnership y nosotros te acompañamos en el proceso." },
+  { title: "Más valor para tu comunidad", desc: "Compartes una oportunidad útil y diferencial para las personas y equipos que hacen parte de tu coworking." },
+  { title: "También para contratar talento", desc: "Además, tu coworking puede usar la plataforma para encontrar talento cuando lo necesite." },
 ];
 
 type StickySwapProps = {
@@ -59,12 +59,12 @@ export default function StickySwap({ locale = "en" }: StickySwapProps) {
         <div className="grid gap-10 md:grid-cols-2">
           <div className="md:sticky md:top-24 md:h-fit">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Lo que gana tu coworking al activar el partnership" : "What changes when evidence is shared"}
+              {isEs ? "Lo que gana tu coworking al activar el partnership" : "What your coworking gains by activating the partnership"}
             </h2>
             <p className="mt-4 max-w-lg text-firo-muted">
               {isEs
-                ? "Convertimos una activación simple en un beneficio concreto para tu comunidad y en una oportunidad de crecimiento para ambas partes."
-                : "It is not about arguing harder. It is about making your process visible and credible."}
+                ? "Convertimos una activación simple en un beneficio concreto para tu comunidad y en una oportunidad de crecimiento compartido."
+                : "We turn a simple activation into a clear benefit for your community and a shared growth opportunity."}
             </p>
           </div>
 

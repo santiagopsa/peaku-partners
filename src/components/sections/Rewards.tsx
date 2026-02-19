@@ -13,18 +13,18 @@ export default function Rewards({ locale = "en" }: RewardsProps) {
         <div className="grid gap-10 md:grid-cols-2 md:items-center">
           <div>
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "PeakU se encarga de que la activación sea fácil para tu equipo" : "This is exactly why we built PeakU"}
+              {isEs ? "Nosotros te lo ponemos fácil para activarlo con tu comunidad" : "We make activation easy for your team"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "Te enviamos un kit de comunicación con piezas para compartir el beneficio dentro del coworking y creamos una landing del partnership para que tu comunidad acceda directo. Tu equipo activa y nosotros acompañamos el resto."
-                : "We kept seeing recruiters with solid judgment lose internal support. PeakU helps structure evaluations, build hiring reports, and present candidates in a format teams trust."}
+                ? "Te enviamos un kit de comunicación con piezas listas para compartir el beneficio dentro del coworking y creamos una landing del partnership para acceso directo. Tu equipo activa y nosotros acompañamos todo el proceso."
+                : "We send you a communication kit with ready-to-share pieces and create a partnership landing page with direct access for your community. Your team activates it, and we support the whole process."}
             </p>
 
             <div className="mt-8 grid gap-3 md:grid-cols-3">
-              <Loot value={isEs ? "Activación sin costo" : "Visible criteria"} />
-              <Loot value={isEs ? "Kit de comunicación para difusión" : "Organized evidence"} />
-              <Loot value={isEs ? "Landing exclusiva del partnership" : "Less friction"} />
+              <Loot value={isEs ? "Activación sin costo" : "No-cost activation"} />
+              <Loot value={isEs ? "Kit de comunicación para difusión" : "Communication kit for sharing"} />
+              <Loot value={isEs ? "Landing exclusiva del partnership" : "Exclusive partnership landing page"} />
             </div>
           </div>
 

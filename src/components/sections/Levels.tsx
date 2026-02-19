@@ -7,27 +7,27 @@ import { ensureGsap } from "@/lib/gsap";
 const levels = [
   {
     level: "Step 1",
-    title: "Signal",
-    earns: "You do the hard diagnostic work",
-    does: "Screening, interviews, and structured notes",
+    title: "Activation",
+    earns: "Your coworking activates the PeakU partnership",
+    does: "No cost, with guided support from our team",
   },
   {
     level: "Step 2",
-    title: "Recommendation",
-    earns: "You present a candidate with clear rationale",
-    does: "Technical and behavioral evidence, not opinions",
+    title: "Communication",
+    earns: "You receive a communication kit to share the benefit",
+    does: "Ready-to-use pieces for your community",
   },
   {
     level: "Step 3",
-    title: "Rejection",
-    earns: "Feedback arrives without structure",
-    does: "\"Not convinced\" with no shared criteria",
+    title: "Direct access",
+    earns: "We launch a partnership landing page for your coworking",
+    does: "Your community can access and activate the benefit easily",
   },
   {
     level: "Step 4",
-    title: "Reprocess",
-    earns: "The process starts again and trust drops",
-    does: "Time lost for recruiter, leader, and candidate",
+    title: "Shared value",
+    earns: "Your community posts premium job openings on PeakU",
+    does: "Your coworking can also use PeakU to find talent",
   },
 ];
 const levelsEs = [
@@ -35,25 +35,25 @@ const levelsEs = [
     level: "Paso 1",
     title: "Activación",
     earns: "Tu coworking activa el partnership con PeakU",
-    does: "Sin costo y con implementación guiada",
+    does: "Sin costo y con acompañamiento de nuestro equipo",
   },
   {
     level: "Paso 2",
     title: "Difusión",
     earns: "Recibes un kit de comunicación para difundir el beneficio",
-    does: "Piezas listas para compartir con tu comunidad",
+    does: "Piezas listas para compartir en tu comunidad",
   },
   {
     level: "Paso 3",
     title: "Acceso directo",
     earns: "Lanzamos una landing del partnership de tu coworking",
-    does: "Tu comunidad entra y activa el beneficio fácilmente",
+    does: "Tu comunidad entra, conoce el beneficio y lo activa fácilmente",
   },
   {
     level: "Paso 4",
     title: "Valor compartido",
     earns: "Tu comunidad publica vacantes premium en PeakU",
-    does: "Tu coworking también puede usar PeakU para encontrar talento",
+    does: "Y tu coworking también puede usar PeakU para encontrar talento",
   },
 ];
 
@@ -95,12 +95,12 @@ export default function Levels({ locale = "en" }: LevelsProps) {
         <div className="grid gap-10 md:grid-cols-2 md:items-start">
           <div className="md:sticky md:top-28">
             <h2 className="text-3xl font-semibold tracking-tight md:text-4xl">
-              {isEs ? "Una activación simple que genera valor para todos" : "This is not a talent problem. It is a trust problem."}
+              {isEs ? "Una activación simple que genera valor para todos" : "A simple activation that creates value for everyone"}
             </h2>
             <p className="mt-4 text-firo-muted">
               {isEs
-                ? "Tu coworking ofrece un beneficio de alto impacto para su comunidad sin asumir costos. PeakU gana visibilidad y, cuando el partnership funciona bien, se abre la puerta a nuevas oportunidades."
-                : "Teams rarely question the process itself. They question the recruiter’s judgment. PeakU adds structured evidence to make hiring decisions defensible."}
+                ? "Tu coworking comparte un beneficio valioso con su comunidad sin asumir costos. PeakU gana visibilidad y, cuando el partnership funciona bien, se abren nuevas oportunidades para todos."
+                : "Your coworking shares a high-value benefit with the community at no cost. PeakU gains visibility and, when the partnership works well, new opportunities open up for everyone."}
             </p>
           </div>
 
